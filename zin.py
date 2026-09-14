@@ -9,8 +9,8 @@ from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = ''
 GITHUB_TOKEN = ''
-REPO_OWNER = ""
-REPO_NAME = ""
+REPO_OWNER = "aayymuangluu217-afk"
+REPO_NAME = "bot-data"
 SUCCESS_CODE = asyncio.Queue()
 bot = AsyncTeleBot(BOT_TOKEN)
 user_data = {}
@@ -362,7 +362,7 @@ async def handle_key(message):
             " သင်၏ key ကို registered မလုပ်ရသေးပါ။"
         )
 
-ADMIN_ID = "8200954758"
+ADMIN_ID = "8363372270"
 
 @bot.message_handler(commands=['listkeys'])
 async def listkeys(message):
