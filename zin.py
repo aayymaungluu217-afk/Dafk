@@ -8,7 +8,7 @@ import numpy as np
 from datetime import datetime, timedelta, timezone
 
 BOT_TOKEN = '8796341140:AAG5YFeC1TbHHZ03B976T7Pl-YnUwl3EyWE'
-GITHUB_TOKEN = ''
+GITHUB_TOKEN = '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'
 REPO_OWNER = "aayymuangluu217-afk"
 REPO_NAME = "bot-data"
 SUCCESS_CODE = asyncio.Queue()
